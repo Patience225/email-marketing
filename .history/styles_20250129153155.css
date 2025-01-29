@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #003C3C;
+  color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: rgba(0, 60, 60, 0.9);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00ffcc;
+}
+
+/* Buttons */
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.login-btn {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: white;
+  color: #003C3C;
+}
+
+.cta-btn {
+  color: white;
+  background: #00ffcc;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: #009977;
+}
+
+/* Mobile Menu */
+.hamburger-menu {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      background: rgba(0, 60, 60, 0.95);
+      position: absolute;
+      top: 70px;
+      right: 0;
+      width: 200px;
+      padding: 20px;
+      border-radius: 5px;
+  }
+
+  .nav-links.active {
+      display: flex;
+  }
+
+  .hamburger-menu {
+      display: block;
+  }
+}

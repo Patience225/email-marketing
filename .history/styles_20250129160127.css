@@ -301,10 +301,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 80px 50px;
+  padding: 100px 50px;
   background: linear-gradient(to bottom, #003C3C, #002b2b);
   color: white;
-  text-align: center;
 }
 
 /* Text Content */
@@ -358,7 +357,16 @@ body {
   border-radius: 5px;
   transition: 0.3s;
   margin-right: 10px;
-  text-align: center;
+
+  display: inline-block;
+  padding: 12px 24px;
+  background: #003C3C;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin-top: 30px;
 }
 
 .btn-primary:hover {
@@ -632,6 +640,24 @@ body {
   border-top: 5px solid #006666;
 }
 
+/* Button */
+.btn-primary {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #003C3C;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #00ffcc;
+  color: #003C3C;
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .pricing-cards {
@@ -643,6 +669,14 @@ body {
   .pricing-card {
       max-width: 100%;
   }
+}
+
+/* Get Started Section */
+.get-started {
+  text-align: center;
+  padding: 80px 50px;
+  background: #00ffcc;
+  color: #003C3C;
 }
 
 .get-started h2 {

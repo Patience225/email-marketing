@@ -301,12 +301,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 80px 50px;
+  padding: 100px 50px;
   background: linear-gradient(to bottom, #003C3C, #002b2b);
   color: white;
   text-align: center;
 }
-
 /* Text Content */
 .get-started-content {
   max-width: 50%;
