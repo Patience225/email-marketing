@@ -511,10 +511,10 @@ body {
 }
 
 .testimonial-image img {
-  max-width: 100%;
-
-  border-radius: 10px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 /* Mobile Responsive */
@@ -654,7 +654,6 @@ body {
   gap: 10px;
   max-width: 500px;
   margin: 0 auto;
-  flex-direction: column;
 }
 
 .get-started-form input {

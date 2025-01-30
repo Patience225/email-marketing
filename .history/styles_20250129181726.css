@@ -654,7 +654,6 @@ body {
   gap: 10px;
   max-width: 500px;
   margin: 0 auto;
-  flex-direction: column;
 }
 
 .get-started-form input {
@@ -685,7 +684,7 @@ body {
 }
 
 /* Mobile Responsive */
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .get-started-form {
       flex-direction: column;
       gap: 15px;

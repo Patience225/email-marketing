@@ -54,6 +54,8 @@ body {
   gap: 10px;
 }
 
+
+
 .cta-btn {
   color: white;
   background: #00ffcc;
@@ -87,11 +89,10 @@ body {
       position: absolute;
       top: 70px;
       right: 0;
-      width: 100px;
+      width: 200px;
       padding: 20px;
       border-radius: 5px;
-    }
-
+  }
 
   .nav-links.active {
       display: flex;
@@ -489,7 +490,6 @@ body {
   font-size: 1.1rem;
   font-style: italic;
   opacity: 0.9;
-  color: darkcyan;
 }
 
 .testimonial-name {
@@ -502,7 +502,6 @@ body {
 .testimonial-role {
   font-size: 1rem;
   opacity: 0.7;
-  color: #003C3C;
 }
 
 /* Image Section */
@@ -512,9 +511,7 @@ body {
 
 .testimonial-image img {
   max-width: 100%;
-
   border-radius: 10px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Mobile Responsive */
@@ -654,7 +651,6 @@ body {
   gap: 10px;
   max-width: 500px;
   margin: 0 auto;
-  flex-direction: column;
 }
 
 .get-started-form input {

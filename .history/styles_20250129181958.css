@@ -639,6 +639,7 @@ body {
 .get-started h2 {
   font-size: 2.5rem;
   font-weight: bold;
+  flex-direction: column;
 }
 
 .get-started p {
@@ -654,7 +655,6 @@ body {
   gap: 10px;
   max-width: 500px;
   margin: 0 auto;
-  flex-direction: column;
 }
 
 .get-started-form input {

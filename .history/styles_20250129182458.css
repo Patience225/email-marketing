@@ -639,12 +639,14 @@ body {
 .get-started h2 {
   font-size: 2.5rem;
   font-weight: bold;
+  max-width: 500px;
 }
 
 .get-started p {
   font-size: 1.2rem;
   opacity: 0.8;
   margin: 15px 0 30px;
+  max-width: 500px;
 }
 
 /* Form */

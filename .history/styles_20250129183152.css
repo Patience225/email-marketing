@@ -636,6 +636,13 @@ body {
   }
 }
 
+.get-started {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
 .get-started h2 {
   font-size: 2.5rem;
   font-weight: bold;
@@ -650,15 +657,13 @@ body {
 /* Form */
 .get-started-form {
   display: flex;
-  justify-content: center;
-  gap: 10px;
-  max-width: 500px;
-  margin: 0 auto;
   flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .get-started-form input {
-  flex: 1;
   padding: 12px;
   font-size: 1rem;
   border: 2px solid #003C3C;
@@ -684,18 +689,6 @@ body {
   border: 2px solid #003C3C;
 }
 
-/* Mobile Responsive */
-@media (max-width: 768px) {
-  .get-started-form {
-      flex-direction: column;
-      gap: 15px;
-  }
-
-  .get-started-form input,
-  .get-started-form button {
-      width: 100%;
-  }
-}
 /* Footer Section */
 .footer {
   background: #003C3C;
